@@ -2,8 +2,18 @@ html {
   font-size: 62.5%;
 }
 
+.block-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 2rem;
+  justify-content: space-between;
+  align-items: center;
+  justify-items: center;
+}
+
 .cards__img {
-  width: 10rem;
+  width: 39.5rem;
+  height: 26.9rem;
 }
 
 .cards__icon {
