@@ -1,7 +1,7 @@
 <header>
     <nav>
       <h1>
-        <img src="logo.png" alt="logo for WindBnB">
+        <img src="img/logo.png" alt="logo for WindBnB">
       </h1>
       <form action="">
         <label for="site-search">Search the site:</label>

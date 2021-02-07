@@ -1,17 +1,16 @@
+<?php
+require('datas/stays.php');
+?>
+
 <main>
-    <h1>
-      Stays in Finland
-    </h1>
-    <section class="block-cards">
-      <article class="cards">
-        <figure>
-          <img src="" alt="">
-          <figcaption>Type</figcaption>
-        </figure>
-        <strong>host</strong>
-        <strong>rating</strong>
-        <h2>
-        </h2>
-      </article>
-    </section>
-  </main>
+  <h1>
+    Stays in Finland
+  </h1>
+  <section class="block-cards">
+    <?php
+      foreach ($stays as $rentalIndex => $rentalInfos) {
+        include('cards.php');
+      }
+    ?>
+  </section>
+</main>

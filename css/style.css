@@ -1,3 +1,20 @@
 html {
   font-size: 62.5%;
 }
+
+.cards__img {
+  width: 10rem;
+}
+
+.cards__icon {
+  color: #eb5757;
+  ;
+}
+
+.cards__em {
+  width: 10rem;
+  height: 2.8rem;
+  border: 1px solid #4f4f4f;
+  border-radius: 1.2rem;
+  margin: 1.5rem 0;
+}
