@@ -8,7 +8,9 @@ require ('datas/stays.php');
 <header>
   <nav>
     <h1>
-      <img src="img/logo.png" alt="logo for WindBnB">
+      <a href="index.php">
+        <img src="img/logo.png" alt="logo for WindBnB">
+      </a>
     </h1>
     <form action="" method="get">
       <label for="search">Search the site:</label>
