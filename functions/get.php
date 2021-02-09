@@ -1,7 +1,7 @@
 <?php
 
 if(!empty($_GET)){
-  $location = $_GET['search'];
+  $location = filter_input(INPUT_GET, 'search', FILTER_SANITIZE_STRING);
 }
 
 
