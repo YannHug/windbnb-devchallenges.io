@@ -2,10 +2,6 @@
 require('datas/stays.php');
 require('functions/get.php');
 
-
-if(!empty($_GET)){
-  $location = $_GET['site-search'];
-}
 ?>
 
 
