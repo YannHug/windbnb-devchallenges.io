@@ -2,7 +2,6 @@
 
 function create_list($stays)
 {
-  $citys = [];
   foreach ($stays as $rentalInfos) {
     if (!isAlreadyInList($rentalInfos['city'], $citys)) {
       $citys[] = $rentalInfos['city'];
