@@ -23,6 +23,6 @@ function isAlreadyInList($rentalInfos, $citys)
 
 function list_city($citys) {
   foreach($citys as $city ){
-    echo '<option value="<?=' . $city . '">' . $city . '</option>';
+    echo '<option value="' . $city . '">' . $city . '</option>';
   }
 };
