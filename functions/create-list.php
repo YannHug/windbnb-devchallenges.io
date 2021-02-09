@@ -4,7 +4,7 @@ function create_list($stays)
 {
   $citys = [];
   foreach ($stays as $rentalInfos) {
-    if (!isAlreadyInList($rentalInfos, $citys)) {
+    if (!isAlreadyInList($rentalInfos['city'], $citys)) {
       $citys[] = $rentalInfos['city'];
     }
   }
@@ -14,7 +14,7 @@ function create_list($stays)
 
 function isAlreadyInList($rentalInfos, $citys)
 {
-    if (in_array($citys, $rentalInfos)) {
+    if (in_array($rentalInfos, $citys)) {
         return true;
     } else {
         return false;
